@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*
+{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body
+{
+    background: #eee;
+    align-items: center;
+}
+
+.cstm-header .navbar a
+{
+    font-size: 20px;
+    margin: 0 16px;
+    color: black;
+    text-decoration: none;
+}
+.cstm-header .navbar a:hover
+{
+    color: green;
+}
+.cstm-header .logo
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    cursor: context-menu;
+    text-transform: capitalize;
+    padding: 12px;
+}
+.cstm-header .logo span
+{
+    color: white;
+    background: green;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 12px 20px;
+}
+.cstm-header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 9%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0.0px black;
+    border: none;
+
+}
+.cstm-header i
+{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background: #eee;
+    font-size: 25px;
+    color: black;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.menu-container
+{
+    box-shadow: 0px 0px 15px 1px black;
+    position: fixed;
+    left: 0;
+    top: 140px;
+    background-color: #fff;
+    width: 20%;
+    padding-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.menu-container .menu
+{
+    text-transform: capitalize;
+    display: block;
+    font-size: 25px;
+    padding: 35px 20px;
+    text-decoration: none;
+    color: rgb(61, 39, 59);
+}
+.menu-container .menu:hover
+{
+    color: green;
+}
+
+.menu-container .menu i
+{
+    padding-right: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.content 
+{
+    padding: 50px;
+    border-radius: 10px;
+    background: white;
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 10%;
+    box-sizing: content-box;
+}
+
+
+.content h1
+{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 35px;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: rgb(61, 39, 59);
+    border-bottom: 2px solid #77dd77;
+}
+.content h1 i
+{
+    padding-right: 10px;
+}
+
+.content .menus-content
+{
+    /* margin-left: 20px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(200px,1fr));
+    gap: 20px;
+}
+.content .menus-content .box
+{
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid green;
+  align-items: center;
+  text-align: center;
+}
+.box:hover
+{
+    box-shadow: 0px 0px 10px 4px green;
+    cursor: pointer;
+}
+.box .content-name 
+{
+    /* padding: 10px; */
+    text-align: center;
+}
+.box .content-name a
+{
+    /* margin-top: 50px; */
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.box i
+{
+    font-size: 70px;
+    color: white;
+    /* padding: 0px 20px 0px 0px; */
+}
+.box i span
+{
+    font-size: 50px;
+    padding: 20px;
+}
+
+.content .adding_function
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px,1fr));
+    gap: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.content .adding_function .box
+{
+    padding: 60px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid green;
+  
+}
+
+
+.admin-pic img
+{
+width: 60px;
+border-radius: 50%;
+}
+.admin-detail
+{
+    position: absolute;
+    top: 110px;
+    right: -150%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    align-items: center;
+}
+.admin-detail.active
+{
+    right: 70px;
+    transition: 0.5s linear;
+}
+.admin-detail img
+{
+    width: 80px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+/* View Products Page  */
+
+
+/* View Products Page  */
